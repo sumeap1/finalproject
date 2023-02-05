@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+         
+      <link rel="stylesheet" href="css/mybook.css">
+
+    <title>My bookshelf</title>
+</head>
+
+<body data-bs-spy="scroll" id="peronal-website" data-bs-target=".navbar">
+
+<!--navbar-->
+<nav class="sp navbar navbar-expand-lg fixed-top navbarScroll">
+    <div class="sp container">
+        <a class="sp navbar-brand" href="#">MY BOOKSHELF</a>
+    <button class="sp navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sp navbar-toggler-icon"></span>
+        </button>
+        <div class="sp collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="sp navbar-nav ms-auto">
+          <li class="sp nav-item ">
+            <a class="sp nav-link active" aria-current="page" href="#popular">POPULAR</a>
+          </li>
+          <li class="sp nav-item">
+            <a class="sp nav-link active" aria-current="page" href="#kids">KIDS</a>
+          </li>
+          <li class="sp nav-item">
+            <a class="sp nav-link active" aria-current="page" href="#islamic">ISLAMIC</a>
+          </li>
+          <li class="sp nav-item">
+            <a class="sp nav-link active" aria-current="page" href="#psychological">PSYCHOLOGICAL</a>
+          </li>
+          <li class="sp nav-item">
+            <a class="sp nav-link active" aria-current="page" href="#contact">CONTACT</a>
+          </li>
+          </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="home" class="sp bg-cover hero-section" style="background-image: url(img/Photo-by-Alfons-Morales-on-Unsplash-scaled-1535x900.webp);">
+  <div class="overlay"></div>
+        <div class="sp container text-white text-center">
+          <div class="sp row">
+            <div class="sp col-12">
+              <h1 class="sp display-4" > <b> GET LOST IN A GOOD BOOK </b></h1>
+              <h4> "A reader lives a thousand lives before he dies" <br> George R. Martin </h4>
+            </div>
+          </div>
+        </div>
+</section>
+<br>
+<br>
+
+<!--quotes-->
+<div class="sp main-content">
+
+    <div class="sp text-area">
+        <span class="sp quote"> 
+            "Today a reader tomorrow a leader" 
+        </span>
+    </div>
+
+    <div class="sp writer"> -Margaret Fuller-</div>
+
+    <div class="sp button-area">
+        <div class="sp btn">
+            <button id="Qbtn">New quote</button>
+        </div>
+    </div>
+    <div><hr></div>
+    
+</div>
+
+<script src="javascript/mybook.js"></script>
+
+<!-- most popular -->
+<section id="popular" >
+    <div class="sp container">
+      <h1 class="sp text-center" style="margin-top: 50px;">MOST POPULAR BOOKS</h1>
+        <div class="sp row" style="margin-top: 50px;">
+            <div class="sp col-md-3 py-3 py-md-0">
+                <div class="sp card" id="card">
+                   <img src="img/popular/English_Harry_Potter_3_Epub_9781781100233.jpg" alt="" class="card image-top">
+                   <div class="sp card-body">
+                   <h3 class="sp card-titel text-center">Harry Poter</h3>
+                   <p class="sp card-text text-center">16.50€</p>
+                   <div id="btn3"><button>Shop now</button></div>
+                </div>
+            </div>
+         </div>
+    <div class="sp col-md-3 py-3 py-md-0">
+        <div class="sp card" id="card">
+            <img src="img/popular/Screenshot (96).png" alt="" class="card image-top">
+            <div class="sp card-body">
+                <h3 class="sp card-titel text-center">The book thief</h3>
+                <p class="sp card-text text-center">17.99€</p>
+                <div id="btn3"><button>Shop Now</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="sp col-md-3 py-3 py-md-0">
+        <div class="sp card" id="card">
+            <img src="img/popular/50927499._SX0_SY0_.jpg" alt="" class="card image-top">
+            <div class="sp card-body">
+                <h3 class="sp card-titel text-center">Addams family</h3>
+                <p class="sp card-text text-center">15.20€</p>
+                <div id="btn3"><button>Shop Now</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="sp col-md-3 py-3 py-md-0">
+        <div class="sp card" id="card">
+            <img src="img/popular/game of thrones.jpg" alt="" class="card image-top">
+            <div class="sp card-body">
+                <h3 class="sp card-titel text-center">Game of thrones</h3>
+                <p class="sp card-text text-center">27.50€</p>
+                <div id="btn3"><button>Shop Now</button></div> 
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+  <div class="sp row" style="margin-top: 50px;">
+      <div class="sp col-md-3 py-3 py-md-0">
+          <div class="sp card" id="card">
+              <img src="img/popular/the ninth life.jpg" alt="" class="card image-top">
+              <div class="sp card-body">
+                  <h3 class="sp card-titel text-center">The ninth life</h3>
+                  <p class="sp card-text text-center">13.50€</p>
+                  <div id="btn3"><button>Shop Now</button></div>
+              </div>
+          </div>
+      </div>
+      <div class="sp col-md-3 py-3 py-md-0">
+          <div class="sp card" id="card">
+              <img src="img/popular/the road.jpg" alt="" class="card image-top">
+              <div class="sp card-body">
+                  <h3 class="sp card-titel text-center">The road</h3>
+                  <p class="sp card-text text-center">14.99€</p>
+                  <div id="btn3"><button>Shop Now</button></div>
+              </div>
+          </div>
+      </div>
+      <div class="sp col-md-3 py-3 py-md-0">
+          <div class="sp card" id="card">
+              <img src="img/popular/the secret.jpg" alt="" class="card image-top">
+              <div class="sp card-body">
+                  <h3 class="sp card-titel text-center">The secret</h3>
+                  <p class="sp card-text text-center">15.50€</p>
+                  <div id="btn3"><button>Shop Now</button></div>
+              </div>
+          </div>
+      </div>
+      <div class="sp col-md-3 py-3 py-md-0">
+        <div class="sp card" id="card">
+            <img src="img/popular/adventures-of-Sherlock-Holmes.jpg" alt="" class="card image-top">
+            <div class="sp card-body">
+                <h3 class="sp card-titel text-center">Sherlock Holmes </h3>
+                <p class="sp card-text text-center">12.70€</p>
+                <div id="btn3"><button>Shop Now</button></div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<a class="sp btn btn-main" > More books</a>
+<br>
+<br>
+<div><hr></div>
+
+<!-- kids -->
+<section id="kids" >
+<div class="sp container">
+  <h1 class="sp text-center" style="margin-top: 50px;">KIDS BOOKS</h1>
+  <div class="sp row" style="margin-top: 50px;">
+      <div class="sp col-md-3 py-3 py-md-0">
+          <div class="sp card" id="card">
+              <img src="img/for kids/1.jpg" alt="" class="card image-top">
+              <div class="sp card-body">
+                  <h3 class="sp card-titel text-center">The girl who said no</h3>
+                  <p class="sp card-text text-center">10.99€</p>
+                  <div id="btn3"><button>Shop now</button></div>
+              </div>
+          </div>
+      </div>
+      <div class="sp col-md-3 py-3 py-md-0">
+          <div class="sp card" id="card">
+              <img src="img/for kids/2.jpg" alt="" class="card image-top">
+              <div class="sp card-body">
+                  <h3 class="sp card-titel text-center">Journey to the stars</h3>
+                  <p class="sp card-text text-center">11.90€</p>
+                  <div id="btn3"><button>Shop Now</button></div>
+              </div>
+          </div>
+      </div>
+      <div class="sp col-md-3 py-3 py-md-0">
+          <div class="sp card" id="card">
+              <img src="img/for kids/3.jpg" alt="" class="card image-top">
+              <div class="sp card-body">
+                  <h3 class="sp card-titel text-center">The secret <br> garden</h3>
+                  <p class="sp card-text text-center">13.20€</p>
+                  <div id="btn3"><button>Shop Now</button></div>
+              </div>
+          </div>
+      </div>
+      <div class="sp col-md-3 py-3 py-md-0">
+          <div class="sp card" id="card">
+              <img src="img/for kids/4.jpg" alt="" class="card image-top">
+              <div class="sp card-body">
+                  <h3 class="sp card-titel text-center">Stargazing </h3> <br>
+                  <p class="sp card-text text-center">14.70€</p>
+                  <div id="btn3"><button>Shop Now</button></div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<br>
+<br>
+<a class="sp btn btn-main" > More books</a>
+<br>
+<br>
+<div><hr></div>
+
+<!-- islamic -->
+<section id="islamic" >
+<div class="sp container">
+  <h1 class="sp text-center" style="margin-top: 50px;">ISLAMIC BOOKS</h1>
+  <div class="sp row" style="margin-top: 50px;">
+      <div class="sp col-md-3 py-3 py-md-0">
+          <div class="sp card" id="card">
+              <img src="img/islamic/61h8aGCyG0L.jpg" alt="" class="card image-top">
+              <div class="sp card-body">
+                  <h3 class="sp card-titel text-center">Life of Prophet Muhammad(saw)</h3>
+                  <p class="sp card-text text-center">29.99€</p>
+                  <div id="btn3"><button>Shop now</button></div>
+              </div>
+          </div>
+      </div>
+      <div class="sp col-md-3 py-3 py-md-0">
+          <div class="sp card" id="card">
+              <img src="img/islamic/ibn-arabi-and-kubrawis-the-reception-of-the-school-of-ibn-arabi-by-kubrawi-mystics.jpg" alt="" class="card image-top">
+              <div class="sp card-body">
+                  <h3 class="sp card-titel text-center">The Reception of the School</h3>
+                  <p class="sp card-text text-center">22.50€</p>
+                  <div id="btn3"><button>Shop Now</button></div>
+              </div>
+          </div>
+      </div>
+      <div class="sp col-md-3 py-3 py-md-0">
+          <div class="sp card" id="card">
+              <img src="img/islamic/ibn-arabi-the-voyage-of-no-return.jpg" alt="" class="card image-top">
+              <div class="sp card-body">
+                  <h3 class="sp card-titel text-center">The Voyage of no Return</h3>
+                  <p class="sp card-text text-center">17.60€</p>
+                  <div id="btn3"><button>Shop Now</button></div>
+              </div>
+          </div>
+      </div>
+      <div class="sp col-md-3 py-3 py-md-0">
+          <div class="sp card" id="card">
+              <img src="img/islamic/images.jpg" alt="" class="card image-top">
+              <div class="sp card-body">
+                  <h3 class="sp card-titel text-center">Journey <br>into Islam</h3>
+                  <p class="sp card-text text-center">15.55€</p>
+                  <div id="btn3"><button>Shop Now</button></div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<br>
+<br>
+<a class="sp btn btn-main" > More books</a>
+<br>
+<br>
+<div><hr></div>
+
+<!-- psychological -->
+<section id="psychological" >
+<div class="sp container">
+  <h1 class="sp text-center" style="margin-top: 50px;">PSYCHOLOGICAL BOOKS</h1>
+  <div class="sp row" style="margin-top: 50px;">
+      <div class="sp col-md-3 py-3 py-md-0">
+          <div class="sp card" id="card">
+              <img src="img/psikologjike/41881472._SY475_.jpg" alt="" class="card image-top">
+              <div class="sp card-body">
+                  <h3 class="sp card-titel text-center">The Psychology of money</h3>
+                  <p class="sp card-text text-center">18.80€</p>
+                  <div id="btn3"><button>Shop now</button></div>
+              </div>
+          </div>
+      </div>
+      <div class="sp col-md-3 py-3 py-md-0">
+          <div class="sp card" id="card">
+              <img src="img/psikologjike/download.jpg" alt="" class="card image-top">
+              <div class="sp card-body">
+                  <h3 class="sp card-titel text-center">The door of Psychology</h3>
+                  <p class="sp card-text text-center">18.25€</p>
+                  <div id="btn3"><button>Shop Now</button></div>
+              </div>
+          </div>
+      </div>
+      <div class="sp col-md-3 py-3 py-md-0">
+          <div class="sp card" id="card">
+              <img src="img/psikologjike/Social-Engineering-by-Christopher-Hadnagy-book-cover.jpg" alt="" class="card image-top">
+              <div class="sp card-body">
+                  <h3 class="sp card-titel text-center">Social <br>engineering</h3>
+                  <p class="sp card-text text-center">14.20€</p>
+                  <div id="btn3"><button>Shop Now</button></div>
+              </div>
+          </div>
+      </div>
+      <div class="sp col-md-3 py-3 py-md-0">
+          <div class="sp card" id="card">
+              <img src="img/psikologjike/The-Psychology-of-Conspiracy-Theories.jpg" alt="" class="card image-top">
+              <div class="sp card-body">
+                  <h3 class="sp card-titel text-center">Conspiracy theories</h3>
+                  <p class="sp card-text text-center">12.50€</p>
+                  <div id="btn3"><button>Shop Now</button></div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<br>
+<br>
+<a class="sp btn btn-main" > More books</a>
+<br>
+<br>
+<div><hr></div>
+<br>
+
+<!--contact-->
+<section id="contact">
+    <div class="sp overlay"></div>
+    <div class="sp container">
+        <div class="sp row">
+            <div class="sp col-12 section-intro text-center" data-aos="fade-up">
+                <h1>CONTACT</h1>
+                <div class="sp divider"></div>
+                <p>
+                </p>
+            </div>
+        </div>
+        <div class="sp row">
+            <div class="sp col-md-8 mx-auto" data-aos="fade-up">
+                <form action="#" class="sp row g-4">
+                    <div class="sp form-group col-md-6">
+                        <input type="text" class="sp form-control" placeholder="Full name">
+                    </div>
+                    <div class="sp form-group col-md-6">
+                        <input type="email" class="form-control" placeholder="Email address">
+                    </div>
+                    <div class="sp form-group col-md-12">
+                        <input type="text" class="form-control" placeholder="Subject">
+                    </div>
+                    <div class="sp form-group col-md-12">
+                        <textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Message"></textarea>
+                    </div>
+                    <div class="sp text-center">
+                        <button class="btn btn-main" type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br>
+
+<!--footer-->
+<footer class="sp py-4">
+    <div class="sp container">
+        <div class="sp row">
+            <div class="sp col-md-6">
+                <p class="sp mb-0">Designed By <span>Sumea Peci</span></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    -->
+</body>
+</html>
